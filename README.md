@@ -3,7 +3,7 @@ https://acm.cs.nthu.edu.tw/problem/12222/
 ## Description
 A bus route editor needs to support two operations:
 
-**INSERT (src, dst, new, method)
+**INSERT (src, dst, new, method)**
 
 * src: the name of the source bus stop
 * dst: the name of the destination bus stop, which is next to the src stop
@@ -11,7 +11,8 @@ A bus route editor needs to support two operations:
 * method:
   * 1: insert the new stop in between src-->dst
   * 2: In addition to src-->dst, also insert the same stop in between dst-->src if appropriate
-**DELETE (name)
+  
+**DELETE (name)**
 
 * Delete the named bus stop
 NOTE: The same station should not occur consecutively, that is, NTHU=>HSCS=>HSCS=>NCTU is not okay, and it should be changed to: NTHU=>HSCS=>NCTU
