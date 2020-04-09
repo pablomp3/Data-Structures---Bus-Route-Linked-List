@@ -15,6 +15,7 @@ A bus route editor needs to support two operations:
 **DELETE (name)**
 
 * Delete the named bus stop
+
 NOTE: The same station should not occur consecutively, that is, NTHU=>HSCS=>HSCS=>NCTU is not okay, and it should be changed to: NTHU=>HSCS=>NCTU
 
 HINT: Use Linked Lists.
