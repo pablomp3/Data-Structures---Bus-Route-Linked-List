@@ -30,9 +30,11 @@ Two additional rules:
 
 * The bus route contains NTHU and TSMC in the beginning.
 * NTHU is never deleted
+
 ## Output
-![](https://github.com/pablomp3/Data-Structures---Bus-Route-Linked-List/blob/master/output%20instructions.png)
+
 Traverse the final bus route from NTHU and back to NTHU.
+![](https://github.com/pablomp3/Data-Structures---Bus-Route-Linked-List/blob/master/output%20instructions.png)
 
 
 
